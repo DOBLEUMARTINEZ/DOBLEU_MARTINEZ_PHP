@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cursos | Aprende git desde cero </title>
+	<title>DOBLEU MARTINEZ | LEARNING </title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
