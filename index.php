@@ -6,18 +6,11 @@
 </head>
 <body>
 
-	<nav class="header">
-		<div>
-			logo
-		</div>
-		<ul>
-			<li>home</li>
-			<li>us</li>
-			<li>services</li>
-			<li>blog</li>
-			<li>contact</li>
-		</ul>
-	</nav>
+	<?php
+
+		include('includes/header.php'); // header
+
+	?>
 
 	<section class="body">
 		<h1>PRIMEROS PASOS EN GIT</h1>
