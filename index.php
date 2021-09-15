@@ -10,7 +10,9 @@
 
 		include('includes/header.php'); // header
 
-		include('includes/home.php'); // section home
+		//include('includes/home.php'); // section home
+
+		include('includes/us.php'); // section us
 
 		include('includes/footer.php'); // footer
 
