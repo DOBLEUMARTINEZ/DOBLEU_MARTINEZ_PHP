@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>DOBLEU MARTINEZ</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
+<?php
+	
+	echo "<!DOCTYPE html><html>";
 
-	<?php
+	include('includes/head.php'); // head
 
-		include('includes/header.php'); // header
+	echo "<body>";
 
-		//include('includes/home.php'); // section home
+		include('includes/nav.php'); // navbar
 
-		include('includes/us.php'); // section us
+		include('includes/home.php'); // section home
 
 		include('includes/footer.php'); // footer
 
-	?>
 
-</body>
-</html>
+	echo "</body></html>";
+
+?>
