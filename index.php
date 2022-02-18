@@ -2,16 +2,17 @@
 	
 	echo "<!DOCTYPE html><html>";
 
-	include('includes/head.php'); // head
+	include('resources/includes/head.php'); // head
 
 	echo "<body>";
 
-		include('includes/nav.php'); // navbar
+		include('resources/includes/nav.php'); // navbar
 
-		include('includes/home.php'); // section home
+		include('resources/includes/slider.php'); // slider
 
-		include('includes/footer.php'); // footer
+		include('resources/includes/desarrollo-web.php'); // contenido de la pagina
 
+		include('resources/includes/footer.php'); // footer
 
 	echo "</body></html>";
 
