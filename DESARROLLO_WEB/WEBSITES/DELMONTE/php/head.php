@@ -21,7 +21,7 @@
       <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';" > <i class="fas fa-envelope" title="Correo" alt="Correo"></i> resicladosindustriales.22@gmail.com</li>
     </ul>
     <ul>
-      <li onclick="window.location.href='tel:5521651341';"> <i class="fas fa-phone" title="Teléfono" alt="Teléfono"></i> 55 2165 1341</li>
+      <li onclick="window.location.href='tel:5583686664';"> <i class="fas fa-phone" title="Teléfono" alt="Teléfono"></i> 55 8368 6664</li>
     </ul>
   </div>
 
@@ -38,36 +38,16 @@
       </ul>
 
       <button>
-        Contactanos
+        Contáctanos
       </button>
 
     </nav>
 
   </div>
   
-  <button style="display: none;" onclick="window.open('https://api.whatsapp.com/send?phone=5215534865908&text=Estoy%20Interesado%20en%20la%20plataforma');" class="btn-whatsapp pulsingButton">
-      <i class="fab fa-whatsapp"></i>
-  </button>
 
   <style type="text/css">
   
-    .btn-whatsapp{
-        position: fixed;
-        bottom: 7%;
-        left: 2%;
-        z-index: 9;
-        background: #28a745;
-        outline: none!important;
-        border: none;
-        border-radius: 50%;
-        font-size: 3em;
-        line-height: 0px;
-        padding: 10px 14px;
-        color: #fff;
-        display: flex;
-        justify-content: center;
-    }
-
     .vert .carousel-item-next.carousel-item-left,
     .vert .carousel-item-prev.carousel-item-right {
         -webkit-transform: translate3d(0, 0, 0);

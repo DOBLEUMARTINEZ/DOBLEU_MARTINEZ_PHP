@@ -65,8 +65,6 @@
             <h3>Polietileno</h3>
             <p></p>
           </li>
-        </ul>
-        <ul>
           <li>
             <img src="images/img/carton.jpg">
             <h3>Cartón</h3>
@@ -77,12 +75,49 @@
             <h3>Chatarra</h3>
             <p></p>
           </li>
+        </ul>
+
+      </div>
+
+      <!-- cta  -->
+      <div class="container-black" style="padding: 5% 5% 5% 5%; background-image: url(./images/img/work2.jpg);" >
+        <span style="background: #000f1fcc;"></span>
+
+          <div class="row">
+
+            <div class="col-md-12" >
+              <h2 id="colors" style="font-weight: bold; letter-spacing: 1px;">
+                <center>Contamos con equipo roll off<br>Recolecciones en sitio</center>
+              </h2>
+              <center>
+                <button data-toggle="modal" data-target="#modal-1" class="cta-03">
+                  Contáctanos
+                </button><br><br>
+              </center>
+              
+            </div>
+
+          </div>
+
+      </div>
+
+      <div class="container container-services-01">
+
+        <h2>Desmantelamiento especializdo</h2>
+
+        <ul>
           <li>
             <img src="images/img/desmantelamiento.jpg">
-            <h3>Desmantelamiento</h3>
+            <h3>Naves industriales</h3>
+            <p></p>
+          </li>
+          <li>
+            <img src="images/img/desmantelamiento.jpg">
+            <h3>Maquinaria</h3>
             <p></p>
           </li>
         </ul>
+
 
       </div>
 

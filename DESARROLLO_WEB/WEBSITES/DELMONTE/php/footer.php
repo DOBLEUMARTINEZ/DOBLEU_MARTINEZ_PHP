@@ -18,8 +18,6 @@
 			<ol>
 				<li>MONTE ALBÁN NO. 27 LOMAS DE MONTE MARÍA ATIZAPÁN DE ZARAGOZA ESTADO DE MÉXICO C.P. 52918</li>
 				<li onclick="window.location.href='mailto: resicladosindustriales.22@gmail.com';" > resicladosindustriales.22@gmail.com</li>
-				<li onclick="window.location.href='tel:5521651341';" >55 2165 1341</li>
-				<li onclick="window.location.href='tel:5583686664';" >55 8368 6664</li>
 				<li onclick="window.location.href='tel:5583686664';" >55 8368 6664</li>
 				<li onclick="window.location.href='tel:5561437730';" >55 6143 7730</li>
 			</ol>

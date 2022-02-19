@@ -8,7 +8,7 @@
 
         <h1 class="ml11">
 
-          Manejo de residuos, Recolección y Traslado de materiales NO peligrosos.
+          Manejo de residuos, recolección y traslado de materiales no peligrosos.
          
         </h1>
 
