@@ -190,7 +190,7 @@
 
       </div>
 
-      <!-- contacto  
+      <!-- contacto  -->
       <div class="container-contact">
             <div class="row no-gutters">
               <div class="col-md-7" style="background: #111;">
@@ -208,24 +208,6 @@
 
                   <label>Correo *</label>
                   <input type="text" name="email" placeholder="ejemplo@gmail.com" required="required">
-
-                  <label>Servicio</label>
-                  <select name="service">
-                    <option value="none">-- Selecciona --</option>
-                    <option value="nom 035">NOM 035</option>
-                    <option value="evaluacion 360">Evaluación 360°</option>
-                    <option value="asesoria">Asesoría por Expertos</option>
-                    <option value="plataforma">Prueba Demo</option>
-                    <option value="demostración">Demostración de Plataforma</option>
-                    <option value="webinar">Webinar</option>
-                    <option value="otro">Otro</option>
-                  </select>
-                  
-                  <label>Consultor</label>
-                  <select name="consultor">
-                    <option value="Mauricio Topete">Mauricio Topete</option>
-                    <option value="Javier Calleja">Javier Calleja</option>
-                  </select>
                   
                   <label>Escribenos tu mensaje</label>
                   <textarea style="margin-top: 15px;" name="msg" placeholder="Escribe tu mensaje..." required="required"></textarea> <br>
@@ -235,24 +217,24 @@
               </div>
               <div class="col-md-5">
 
-                <iframe class="desktop"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.4884793976016!2d-99.18798398578156!3d19.434495145657635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8abbd455555%3A0x9afac92db9fe774!2sATS!5e0!3m2!1ses-419!2smx!4v1623283153396!5m2!1ses-419!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="desktop"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.679058170779!2d-99.26929738558653!3d19.598245840442473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21c11fd1b940f%3A0xbec25e37c5db3e6!2sCda.%20Montealban%2027%2C%20Lomas%20de%20Monte%20Maria%2C%2052918%20Cd%20L%C3%B3pez%20Mateos%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1645247067252!5m2!1ses-419!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
               <div class="container-end">
                 <ul>
-                  <li  onclick="window.location.href='tel:';"><i  id="rotate" class="fas fa-phone"></i> 55 3640 - 0551 </li>
-                  <li  onclick="window.location.href='tel:';"><i  id="rotate" class="fas fa-phone"></i> 55 3640 - 0552 </li>
-                  <li onclick="window.location.href='mailto:contacto@atsonline.com.mx';"><i class="fas fa-envelope" ></i> contacto@atsonline.com.mx</li>
+                  <li  onclick="window.location.href='tel:5583686664';"><i  id="rotate" class="fas fa-phone"></i> 55 8368 6664 </li>
+                  <li  onclick="window.location.href='tel:5561437730';"><i  id="rotate" class="fas fa-phone"></i> 55 6143 7730 </li>
+                  <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';"><i class="fas fa-envelope" ></i> resicladosindustriales.22@gmail.com</li>
 
                   <li onclick="window.location.href='https://goo.gl/maps/f6hTZf6ZRiv6o1rs9';">
                     <i class="fas fa-map-marker-alt"></i>
-                    Petrarca 223, 901 Chapultepec Morales 11550 Ciudad de México, CDMX
+                    MONTE ALBÁN NO. 27 LOMAS DE MONTE MARÍA ATIZAPÁN DE ZARAGOZA ESTADO DE MÉXICO C.P. 52918
                   </li>
 
                 </ul>
               </div>                
               </div>
             </div>
-      </div>-->
+      </div>
 
     </article>
   </section>
