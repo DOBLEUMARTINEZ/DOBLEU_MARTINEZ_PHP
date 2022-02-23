@@ -28,7 +28,7 @@ h1, h3, h4, h5, h6 {
 }
 
 p{
-    font-size: 1.3em;
+    font-size: 1.3em!important;
     font-family: var(--font-content);
 }
 html{
@@ -1516,6 +1516,17 @@ a.pulsingButton:hover {
     font-size: 3.3em;
     margin-bottom: 20px;
 }
+
+
+/** */
+.box-notes{
+    background: #409fc838;
+    border-radius: 5px;
+    padding: 2% 2%!important;
+}
+
+
+
 .container-black{
     background-image: url(../images/img/work.jpg);
     width: 100%;

@@ -14,9 +14,9 @@
 
   <link href="images/logo/icon.png" rel="shortcut icon"/>
 
-  <link rel="manifest" href="https://atsonline.com.mx/images/logo/icon.png">
-  <link rel="icon" type="images/logo/icon.png" sizes="32x32" href="https://atsonline.com.mx/images/logo/icon.png">
-  <link rel="icon" type="images/logo/icon.png" sizes="16x16" href="https://atsonline.com.mx/images/logo/icon.png">
+  <link rel="manifest" href="https://cuvitalento.com/images/logo/icon.png">
+  <link rel="icon" type="images/logo/icon.png" sizes="32x32" href="https://cuvitalento.com/images/logo/icon.png">
+  <link rel="icon" type="images/logo/icon.png" sizes="16x16" href="https://cuvitalento.com/images/logo/icon.png">
 
 
   <link rel="stylesheet" href="css/styles.css"/>
@@ -198,10 +198,10 @@
               <div class="container-work">
 
                 <h2 style="margin-bottom: 1%;">
-                  Un plan a tu medida
+                  Investigación socioeconómica laboral
                 </h2>
                 <p style="margin-bottom: 3%; text-align: center;">
-                  Investigación socioeconómica laboral
+                   Herramienta para ayudar a escoger al mejor candidato para los perfiles de tu empresa.
                 </p>
 
                 <div class="">
@@ -209,7 +209,7 @@
                     <li>
                       <h3>Básico</h3>
                       <ol>
-                        <li><i class="fas fa-check"></i>Visita domiciliaria</li>
+                        <li><i class="fas fa-check"></i> Visita domiciliaria</li>
                         <li><i class="fas fa-check"></i>Fotografías dentro y fuera del domicilio</li>
                         <li><i class="fas fa-check"></i>Ubicación</li>
                         <li><i class="fas fa-check"></i>Datos personales</li>
@@ -261,8 +261,8 @@
             </div>
 
             <div class="col-md-12">
-              <p>
-                La entrega del estudio socioeconómico será de 2 a 4 días hábiles, en caso de que el candidato postergue la visita domiciliaria nuestro compromiso de entrega iniciará a partir de la fecha de aplicación del estudio
+              <p class="box-notes">
+                <strong>Nota: </strong>La entrega del estudio socioeconómico será de 2 a 4 días hábiles, en caso de que el candidato postergue la visita domiciliaria nuestro compromiso de entrega iniciará a partir de la fecha de aplicación del estudio
               </p>
             </div>
           </div>
@@ -274,44 +274,137 @@
         <div class="container-us">
             
             <div class="row no-gutters">
+
+              <div class="col-md-12">
+                <div class="container-work">
+
+                  <h2 style="margin-bottom: 1%;">
+                    Reclutamiento
+                  </h2>
+                  <p style="margin-bottom: 3%; text-align: center;">
+                     Recuerda que las empresas son tan buenas como las personas que se contratan y trabajan día a día
+                  </p>
+
+                </div>
+              </div>
             
-                <div class="col-md-4" style="margin: auto;">
-                  <h3>
-                    Reclutamiento
-                  </h3>
+                <div class="col-md-4">
+                  <img class="w-img-s1 img-fluid desktop" src="./images/img/nosotros-02.jpg" title="ats" alt="ats"> 
+                  <h3>¿Qué es?</h3>
                   <p>
-                    Empresa dedicada a brindar soluciones de investigación socioeconómica laboral y ofrecer una excelente herramienta para ayudar a escoger almejor candidato para tu empresa.<br>
-                    <button data-toggle="modal" data-target="#modal-1" class="cta-02">Contáctanos</button>
+                    El reclutamiento es el proceso mediante el cual la organización identifica y atrae a futuros empleados capacitados e idóneos para el cumplimiento de los objetivos organizacionales.
                   </p>
     
                 </div>
 
-                <div class="col-md-4" style="margin: auto;">
-                  <h3>
-                    Reclutamiento
-                  </h3>
+                <div class="col-md-4">
+                  <img class="w-img-s1 img-fluid desktop" src="./images/img/nosotros-02.jpg" title="ats" alt="ats">
+                  <h3>¿Qué se busca?</h3>
                   <p>
-                    Empresa dedicada a brindar soluciones de investigación socioeconómica laboral y ofrecer una excelente herramienta para ayudar a escoger almejor candidato para tu empresa.<br>
-                    <button data-toggle="modal" data-target="#modal-1" class="cta-02">Contáctanos</button>
+                    Que los candidatos posean habilidades y experiencia que no existan actualmente dentro de la empresa. Los aspirantes a ocupar los cargos deben tener ciertas características y competencias requeridas para cubrir el puesto.
                   </p>
     
                 </div>
 
-                <div class="col-md-4" style="margin: auto;">
+                <div class="col-md-4">
+                  <img class="w-img-s1 img-fluid desktop" src="./images/img/nosotros-02.jpg" title="ats" alt="ats"> 
                   <h3>
-                    Reclutamiento
+                    Ventajas
                   </h3>
                   <p>
-                    Empresa dedicada a brindar soluciones de investigación socioeconómica laboral y ofrecer una excelente herramienta para ayudar a escoger almejor candidato para tu empresa.<br>
-                    <button data-toggle="modal" data-target="#modal-1" class="cta-02">Contáctanos</button>
+                    <i class="fas fa-check" style="color:#333; font-size: 0.5em;" ></i> Reducción de la tasa de rotación de personal de su organización.<br>
+                    <i class="fas fa-check" style="color:#333; font-size: 0.5em;" ></i> Contratar a candidatos que comparta la misma visión y valores de la compañía.<br>
+                    <i class="fas fa-check" style="color:#333; font-size: 0.5em;" ></i> Evitar contratar a personas que busquen sacar provecho o no aporten a tu empresa.
                   </p>
-    
                 </div>
 
             </div>
 
+            <br><br>
+
+            <div class="row no-gutters">
+              <div class="col-md-8">
+                  <h3>Como te ayudamos</h3>
+                  <p>
+                    Nuestro objetivo principal es hacer que el proceso de selección de personal, sea un proceso de contratación organizado, transparente y justo, que pueda ayudar a tu empresa a poner a los candidatos indicados en tus oficinas, personas que aporten al desarrollo y crecimiento de tu empresa.
+                  </p>
+                </div>
+
+                <div class="col-md-4">
+                  <img class="w-img-s1 img-fluid desktop" src="./images/img/nosotros-02.jpg" title="ats" alt="ats">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-services">
+
+            <!-- proceso -->
+            <h2 style="text-align: center;">Nuestro proceso</h2>
+            <div class="slider-principal" style="padding: 5% 0% 0% 0%; margin-bottom: 2%">
+                
+                <div id="our-service" class="carousel slide" data-ride="carousel">    
+
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+
+                        <ul>
+
+                          <li data-toggle="modal" data-target="#modal-service -1" >
+                            <span></span>
+                            <img src="images/icons/home.png" title="Visita Domiciliaria" alt="Visita Domiciliaria">
+                            <p>Visita<br>Domiciliaria</p>
+                          </li>
+
+                          <li data-toggle="modal" data-target="#modal-service -2" >
+                            <span></span>
+                            <img src="images/icons/camara.png" title="Fotografías Dentro y Fuera del Domicilio" alt="Fotografías Dentro y Fuera del Domicilio">
+                            <p>Fotografías Dentro y<br> Fuera del Domicilio</p>
+                          </li>
+
+                          <li data-toggle="modal" data-target="#modal-service -3" >
+                            <span></span>
+                            <img src="images/icons/location.png" title="Ubicación del Domicilio" alt="Ubicación del Domicilio">
+                            <p>Ubicación del<br> Domicilio</p>
+                          </li>
+
+                        </ul>
+
+                        <ul>
+
+                          <li data-toggle="modal" data-target="#modal-service -4" >
+                            <span></span>
+                            <img src="images/icons/data-protection.png" title="Datos Personales" alt="Datos Personales">
+                            <p>Datos<br> Personales</p>
+                          </li>
+
+                          <li data-toggle="modal" data-target="#modal-service -5" >
+                            <span></span>
+                            <img src="images/icons/families.png" title="Evaluación del Entorno Social" alt="Evaluación del Entorno Social">
+                            <p>Evaluación del <br> Entorno Social</p>
+                          </li>
+
+                          <li data-toggle="modal" data-target="#modal-service -6">
+                            <span></span>
+                            <img src="images/icons/reference.png" title="Referencias Personales y Vecinales">
+                            <p>Referencias Personales y<br> Vecinales</p>
+                          </li>
+
+                        </ul>
+
+                      </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
         </div>
       </div>
+
+      
 
       <!-- socios 
       <div class="container-fluid">
@@ -409,16 +502,16 @@
               </div>
               <div class="col-md-5">
 
-                <iframe class="desktop"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.0468818559907!2d-99.14956882080214!3d19.410380250765964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff2035e03071%3A0x55fa4d0e920a6aa2!2sPanam%C3%A1%2017-int%20b201!5e0!3m2!1ses-419!2smx!4v1644794278640!5m2!1ses-419!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="desktop"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.582733434507!2d-99.15739112877225!3d19.416912677659973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff26d712593f%3A0xba3f7c93c66ecfb5!2sDoctores%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1645575419780!5m2!1ses-419!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
               <div class="container-end">
                 <ul>
                   <li  onclick="window.location.href='tel:5546490418';"><i  id="rotate" class="fas fa-phone"></i> 55 4649 0418 </li>
                   <li onclick="window.location.href='mailto:contacto@cuvitalento.com';"><i class="fas fa-envelope" ></i> contacto@cuvitalento.com</li>
 
-                  <li onclick="window.location.href='https://goo.gl/maps/f6hTZf6ZRiv6o1rs9';">
+                  <li onclick="window.location.href='https://goo.gl/maps/ZCmDQM6jhg3GbkC36';">
                     <i class="fas fa-map-marker-alt"></i>
-                    Cerrada de Panamá col. Doctores, Ciudad de México, CDMX
+                    Colonia Doctores, Ciudad de México, CDMX
                   </li>
 
                 </ul>

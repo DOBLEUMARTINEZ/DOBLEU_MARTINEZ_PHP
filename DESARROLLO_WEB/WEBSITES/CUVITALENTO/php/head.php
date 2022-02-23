@@ -104,7 +104,7 @@
     </nav>
   </div>
   
-  <button onclick="window.open('https://api.whatsapp.com/send?phone=5215534865908&text=Estoy%20Interesado%20en%20la%20plataforma');" class="btn-whatsapp pulsingButton">
+  <button onclick="window.open('https://api.whatsapp.com/send?phone=5215529575302&text=Estoy%20Interesado%20en%20los%20servicios');" class="btn-whatsapp pulsingButton">
       <i class="fab fa-whatsapp"></i>
   </button>
 
