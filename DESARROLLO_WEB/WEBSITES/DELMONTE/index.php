@@ -14,9 +14,9 @@
 
   <link href="images/logo/icon.png" rel="shortcut icon"/>
 
-  <link rel="manifest" href="images/logo/icon.png">
-  <link rel="icon" type="images/logo/icon.png" sizes="32x32" href="images/logo/icon.png">
-  <link rel="icon" type="images/logo/icon.png" sizes="16x16" href="images/logo/icon.png">
+  <link rel="manifest" href="http://recicladosdelmonte.com/images/logo/icon.png">
+  <link rel="icon" type="images/logo/icon.png" sizes="32x32" href="http://recicladosdelmonte.com/images/logo/icon.png">
+  <link rel="icon" type="images/logo/icon.png" sizes="16x16" href="http://recicladosdelmonte.com/images/logo/icon.png">
 
 
   <link rel="stylesheet" href="css/styles.css"/>

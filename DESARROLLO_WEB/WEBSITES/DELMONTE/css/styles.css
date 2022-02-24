@@ -637,6 +637,84 @@
     }
 
 /****HEADER ******/
+
+
+    .head{
+        padding: 0.5% 5%;
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        background: #0000;
+        transition: 0.5s;   
+        z-index: 2;
+    }
+    .enable-head{
+        transition: 0.3s!important;
+        background: #fff!important;
+        opacity: 1!important;
+        top: 0;
+        box-shadow: 0 5px 30px rgb(0 0 0 / 10%);
+    }
+
+    .enable-head li{
+        font-family: var(--font-content);
+        transition: 0.3s;
+    }
+
+    /* head-movil  */
+        .head-mobil{
+            padding: 0.5% 5%;
+            margin: 0;
+            position: fixed;
+            width: 100%;
+            z-index: 2;
+            background: #fff;
+        }
+
+        .head-mobil>ol{
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 1% 0;
+            list-style: none;
+            text-align: center;
+            align-items: center;
+        }
+
+        .head-mobil>ol>li{
+            font-family: var(--font-content);
+            font-size: 1em;
+            cursor: pointer;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            color: #000000cf;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .head-mobil>ol>li>img{
+            width: 30%;
+        }
+
+        .head-mobil>ol>li>button{
+            background: #ffc107;
+            border-radius: 5px;
+            border: none;
+            font-size: 1.2em;
+            font-weight: bolder;
+            letter-spacing: 1px;
+        }
+
+        .head-mobil>ol>li>i{
+            display: none;
+            margin: auto;
+            font-size: 1.9em;
+            color: #7ac144;
+        }
+
+    /**/
+
     .head-0{
         padding: 0.35rem 5rem;
         margin: 0;
@@ -669,29 +747,6 @@
         color: #111;
     }
 
-
-    .head{
-        padding: 0.5% 5%;
-        margin: 0;
-        position: fixed;
-        width: 100%;
-        z-index: 2;
-        background: #0000;
-        transition: 0.5s;   
-        z-index: 2;
-    }
-    .enable-head{
-        transition: 0.3s!important;
-        background: #fff!important;
-        opacity: 1!important;
-        top: 0;
-        box-shadow: 0 5px 30px rgb(0 0 0 / 10%);
-    }
-
-    .enable-head li{
-        font-family: var(--font-content);
-        transition: 0.3s;
-    }
 
 /* hedaer 2 */
 
@@ -2022,7 +2077,7 @@ a.pulsingButton:hover {
 .container-end li{
     list-style: none;
     text-align: left;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 2.5% 0%;
     cursor: pointer;
     transition: 0.3s;
@@ -2341,13 +2396,28 @@ a.pulsingButton:hover {
         height: 40px;
     }
 }
+
 @media( max-width: 1024px ){
 }
+
 @media(max-width: 990px ){
 
     .desktop{ display: none;  visibility: hidden;}
     .mobil{ display: block;  visibility: visible; z-index: 99;}
 
+    /* heder - movil  */
+        .logo-nav-movil{
+            width: 35%;
+            padding: 5%;
+            padding-left: 10%;
+        }
+
+    /* img socios */
+        .clientes li > img {
+            width: 60%!important;
+        }
+
+    /* titulos  */    
     .title-1{
         font-size: 2em;
         padding: 2% 4%;
@@ -2493,9 +2563,26 @@ a.pulsingButton:hover {
     .container-contact input, select, textarea{
         margin: 5% 0% 5% 0%;
     }
+
+    /* slider  */
+
+        .ml11 {
+            font-size: 2.5em;
+        }
+
+    /*  */
+
+    .container-services-01 ul {
+        flex-wrap: wrap;
+    }
 }
+
 @media( max-width: 768px ){
+
+
+
 }
+
 @media (max-width: 425px){
 
     .head {
@@ -2611,6 +2698,46 @@ a.pulsingButton:hover {
 
     .container-services-01 ul>li {
         width: 100%
+    }
+
+    /* head-movil  */
+
+        .head-mobil {
+            padding: 0.5% 0%;
+        }
+
+
+        .head-mobil>ol>li{
+            font-family: var(--font-content);
+            font-size: 1em;
+            cursor: pointer;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            color: #000000cf;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .head-mobil>ol>li>img{
+            width: 60%;
+        }
+
+        .head-mobil>ol>li>button{
+            display: none;
+        }
+
+        .head-mobil>ol>li>i{
+            display: block;
+
+        }
+
+    /**/
+
+    .carousel-inner h1 {
+        font-size: 1.8em;
+        left: 5%;
+        width: 90%;
+        padding: 5%;
     }
 
 }

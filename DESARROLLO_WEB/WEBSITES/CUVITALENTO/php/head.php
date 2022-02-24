@@ -38,19 +38,19 @@
     <ul style="justify-content: flex-start;">
     </ul>
     <ul >
-      <li onclick="window.open('https://www.facebook.com/Productivity-GO-112803200451668');">
+      <li onclick="window.open('');">
         <i class="fab fa-facebook-f" title="Facebook" alt="Facebook"></i>
       </li>
 
-      <li onclick="window.open('https://www.instagram.com/productivity.go/');">
+      <li onclick="window.open('');">
         <i class="fab fa-instagram" title="Instagram" alt="Instagram" ></i>
       </li>
 
-      <li onclick="window.open('https://youtu.be/LU_XFvmkO3Q');">
+      <li onclick="window.open('');">
         <i class="fab fa-youtube" title="Youtube" alt="Youtube" ></i>
       </li>
 
-      <li onclick="window.open('mailto:contacto@atsonline.com.mx');" >
+      <li onclick="window.open('');" >
         <i class="fas fa-envelope" title="Correo" alt="Correo"></i>
       </li>
 

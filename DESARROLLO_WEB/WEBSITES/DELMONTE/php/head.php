@@ -1,18 +1,15 @@
 <?php include('alertas/alertas_01.php');?>
 
 <!-- HEADER MOBIL -->
- <div class="head mobil" style="background: #fff!important;">
-    <nav class="container-header">
-      <ul style="width: 100%; justify-content: space-between;">
-        <li style="width: 70%;" >
-          <img style="margin: 0px 0px 0px 0px;padding: 5px 0px 5px 10px;" src="images/logo/logo.png"/ onclick="window.location.href='./';">
-        </li>
-        <li data-toggle="modal" data-target="#modal-0" style="width: 30%; display: flex;" >
-          <i style="margin: auto;font-size: 1.6em;color: #28a745;
-" class="fas fa-bars"></i>
-        </li>
-      </ul>
-    </nav>
+
+ <div class="head-mobil mobil">
+
+    <ol>
+      <li style="width:20%;" ><img src="images/logo/logo.png" onclick="window.location.href='./';"></li>
+      <li style="width:60%;" class="text-head-mobil" >RECUPERADORA DE RECICLAJES INDUSTRIALES DEL MONTE</li>
+      <li style="width:20%;" ><button>Contáctanos</button><i class="fas fa-envelope"></i></li>
+    </ol>
+
   </div>
 
 <!-- HEADER 1 -->
@@ -30,7 +27,7 @@
 
     <nav class="container-header">
       <div>
-        <img src="images/logo/logo.png" onclick="window.location.href='./';"></li>
+        <img src="images/logo/logo.png" onclick="window.location.href='./';">
       </div>
 
       <ul>
