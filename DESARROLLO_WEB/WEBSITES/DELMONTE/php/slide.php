@@ -7,22 +7,23 @@
       <img class="d-block w-100 mobil-slider" src="./images/slide/mobil-0.png" alt="First slide">
 
         <h1 class="ml11">
-
           Manejo de residuos, recolección y traslado de materiales no peligrosos.
-         
         </h1>
+        <h2 class="mobil">
+          <img src="images/img/rolloff.jpg" class="mobil">
+        </h2>
 
     </div>
   
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <!--<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
-  </a>
+  </a>-->
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>

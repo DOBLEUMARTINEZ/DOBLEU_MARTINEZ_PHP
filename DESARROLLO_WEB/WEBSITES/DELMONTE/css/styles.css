@@ -670,6 +670,7 @@
             width: 100%;
             z-index: 2;
             background: #fff;
+            box-shadow: 0 5px 30px rgb(0 0 0 / 10%);
         }
 
         .head-mobil>ol{
@@ -2328,6 +2329,11 @@ a.pulsingButton:hover {
 
 }
 
+.footer-W img{
+    width: 45%;
+    padding: 5%;
+}
+
 .footer-W ol>li:hover{
     color: #7ac143;
 }
@@ -2736,8 +2742,29 @@ a.pulsingButton:hover {
     .carousel-inner h1 {
         font-size: 1.8em;
         left: 5%;
+        top: 15%;
         width: 90%;
-        padding: 5%;
+        padding: 10% 5%;
+    }
+
+    .carousel-inner h1 {
+        left: 5%;
+        top: 10%;
+        width: 90%;
+        padding: 10% 5%;
+    }
+
+    .carousel-inner h2{
+        position: absolute;
+        left: 5%;
+        top: 30%;
+        width: 90%;
+        padding: 10% 5%;
+    }
+
+    .carousel-inner h2 > img{
+        width: 100%;
+        border-radius: 3px;
     }
 
 }

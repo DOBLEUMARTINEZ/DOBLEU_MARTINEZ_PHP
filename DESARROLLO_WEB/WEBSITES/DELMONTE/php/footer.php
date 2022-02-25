@@ -5,15 +5,17 @@
 		<div class="col-md-4">
 			<h3>Manejo de residuos</h3>
 			<ol>
+				<li>Tecnología y activos</li>
+				<li>Desmantelamiento especializdo</li>
 				<li>Plástico</li>
 				<li>Tarimas</li>
-				<li>Polipro</li>
+				<li>Polipropileno</li>
 				<li>Polietileno</li>
 				<li>Cartón</li>
 				<li>Chatarra</li>
 			</ol>
 		</div>
-		<div class="col-md-8">
+		<div class="col-md-4">
 			<h3>Contacto</h3>
 			<ol>
 				<li>MONTE ALBÁN NO. 27 LOMAS DE MONTE MARÍA ATIZAPÁN DE ZARAGOZA ESTADO DE MÉXICO C.P. 52918</li>
@@ -22,6 +24,10 @@
 				<li onclick="window.location.href='tel:5561437730';" >55 6143 7730</li>
 			</ol>
 		</div>
+		<div class="col-md-4">
+			<center><img  src="images/logo/logo.png" onclick="window.location.href='./';"></center>
+		</div>
+
 		
 	</div>
 

@@ -46,35 +46,49 @@
         <h2>Los residuos que recolectamos son</h2>
         <ul>
           <li>
-            <img src="images/img/plastico.jpg">
-            <h3>Plástico</h3>
-            <p></p>
+            <img src="images/img/techno.jpg">
+            <h3>Tecnología y activos</h3>
+            <p>Recolección de tecnología y activos que estén por retirar de sus sedes de trabajo.</p>
           </li>
+          
           <li>
             <img src="images/img/tarimas.jpg">
             <h3>Tarimas</h3>
             <p></p>
           </li>
-          <li>
-            <img src="images/img/polipro.jpg">
-            <h3>Polipro</h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="images/img/Polietileno.jpg">
-            <h3>Polietileno</h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="images/img/carton.jpg">
-            <h3>Cartón</h3>
-            <p></p>
-          </li>
+          
           <li>
             <img src="images/img/chatarra.jpg">
             <h3>Chatarra</h3>
             <p></p>
           </li>
+        </ul>
+        <ul>
+          
+          <li>
+            <img src="images/img/plastico.jpg">
+            <h3>Plástico</h3>
+            <p></p>
+          </li>
+          
+          <li>
+            <img src="images/img/polipro.jpg">
+            <h3>Polipropileno</h3>
+            <p></p>
+          </li>
+
+          <li>
+            <img src="images/img/Polietileno.jpg">
+            <h3>Polietileno</h3>
+            <p></p>
+          </li>
+
+          <li>
+            <img src="images/img/carton.jpg">
+            <h3>Cartón</h3>
+            <p></p>
+          </li>
+
         </ul>
 
       </div>
