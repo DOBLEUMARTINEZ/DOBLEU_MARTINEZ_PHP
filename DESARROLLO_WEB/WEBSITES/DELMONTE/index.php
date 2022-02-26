@@ -64,7 +64,7 @@
           </li>
         </ul>
         <ul>
-          
+
           <li>
             <img src="images/img/plastico.jpg">
             <h3>Plástico</h3>
@@ -223,8 +223,18 @@
                   <label>Correo *</label>
                   <input type="text" name="email" placeholder="ejemplo@gmail.com" required="required">
                   
-                  <label>Escribenos tu mensaje</label>
-                  <textarea style="margin-top: 15px;" name="msg" placeholder="Escribe tu mensaje..." required="required"></textarea> <br>
+                  <label>Servicio</label>
+                  <select name="service" required>
+                    <option value="Seleccióna">-- Selecciona --</option>
+                    <option value="Tecnología y activos">Tecnología y activos</option>
+                    <option value="Desmantelamiento especializdo">Desmantelamiento especializdo</option>
+                    <option value="Plástico">Plástico</option>
+                    <option value="Tarimas">Tarimas</option>
+                    <option value="Polipropileno">Polipropileno</option>
+                    <option value="Polietileno">Polietileno</option>
+                    <option value="Cartón">Cartón</option>
+                    <option value="Chatarra">Chatarra</option>
+                  </select> <br>
 
                   <center><button name="action" value="new_contact">Enviar</button></center>
                 </form>           

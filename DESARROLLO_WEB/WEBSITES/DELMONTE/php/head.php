@@ -7,7 +7,7 @@
     <ol>
       <li style="width:20%;" ><img src="images/logo/logo.png" onclick="window.location.href='./';"></li>
       <li style="width:60%;" class="text-head-mobil" >RECUPERADORA DE RECICLAJES INDUSTRIALES DEL MONTE</li>
-      <li style="width:20%;" ><button>Contáctanos</button><i class="fas fa-envelope"></i></li>
+      <li style="width:20%;" ><button data-toggle="modal" data-target="#modal-1" >Contáctanos</button><i data-toggle="modal" data-target="#modal-1" class="fas fa-envelope"></i></li>
     </ol>
 
   </div>
@@ -34,7 +34,7 @@
         <li onclick="window.location.href='./';">RECUPERADORA DE RECICLAJES INDUSTRIALES DEL MONTE</li>
       </ul>
 
-      <button>
+      <button data-toggle="modal" data-target="#modal-1" >
         Contáctanos
       </button>
 

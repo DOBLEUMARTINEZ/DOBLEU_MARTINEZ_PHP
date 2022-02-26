@@ -10,7 +10,7 @@
           Manejo de residuos, recolección y traslado de materiales no peligrosos.
         </h1>
         <h2 class="mobil">
-          <img src="images/img/rolloff.jpg" class="mobil">
+          <img src="images/img/rolloff.jpg" class="mobil-2">
         </h2>
 
     </div>

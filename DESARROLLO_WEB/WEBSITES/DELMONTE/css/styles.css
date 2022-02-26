@@ -662,6 +662,10 @@
         transition: 0.3s;
     }
 
+    .mobil-2{
+        display: none;
+    }
+
     /* head-movil  */
         .head-mobil{
             padding: 0.5% 5%;
@@ -2590,6 +2594,10 @@ a.pulsingButton:hover {
 }
 
 @media (max-width: 425px){
+
+    .mobil-2{
+        display: block;
+    }
 
     .head {
         padding: 0;

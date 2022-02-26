@@ -8,7 +8,8 @@ if (isset($_POST['action'])||isset($_GET['action'])) {
 
     //echo "new contact";
     
-    $email_to = "contacto@atsonline.com.mx";
+    $email_to = "resicladosindustriales.22@gmail.com";
+    //$email_to = "contacto@dobleumartinez.com";
         
       function died($error) {  
         echo "Lo sentimos, hubo un error en sus datos y el formulario no puede ser enviado en este momento. ";
@@ -32,7 +33,7 @@ if (isset($_POST['action'])||isset($_GET['action'])) {
       $service      = $_POST['service']; 
       $error_message = "";
 
-      //
+      /*
 
         include('conexion.php');   
 
@@ -85,7 +86,7 @@ if (isset($_POST['action'])||isset($_GET['action'])) {
 
             $result = $con->query($sql);
         
-            /*
+            
                 $string_exp = "/^[A-Za-z .'-_]+$/";
               if(!preg_match($string_exp,$first_name)) {
 
@@ -119,13 +120,14 @@ if (isset($_POST['action'])||isset($_GET['action'])) {
              
             'X-Mailer: PHP/' . phpversion();
              
-            @mail($email_to, $email_subject, utf8_decode($email_message), $headers);
+            @mail($email_to, 'CONTACTO DESDE WEB SITE', utf8_decode($email_message), $headers);
 
             //header('./?id=true');
             
             //exit();
 
             echo "<script>window.location.href='./?id=true';</script>";
+            exit();  
 
   }else{ // login y registro
     //echo 'login y resgistro';
