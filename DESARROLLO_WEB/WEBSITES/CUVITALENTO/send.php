@@ -119,7 +119,7 @@ if (isset($_POST['action'])||isset($_GET['action'])) {
              
             'X-Mailer: PHP/' . phpversion();
              
-            @mail($email_to, 'CONTACTO DESDE PAGINA WEB', utf8_decode($email_message), $headers);
+            @mail($email_to, 'CONTACTO DESDE CUVITALENTO.COM', utf8_decode($email_message), $headers);
 
             //header('./?id=true');
             

@@ -41,7 +41,7 @@
 
       <!-- contacto  -->
       <div class="container-contact">
-        <div class="row no-gutters">
+            <div class="row no-gutters">
               <div class="col-md-7" style="background: #111;">
                 <h3>¿Necesitas información de nuestros servicios?</h3>
                 <form method="POST" action="./send.php">

@@ -177,7 +177,7 @@
                   <input type="text" name="email" placeholder="ejemplo@gmail.com" required="required">
                   
                   <label>Escribenos tu mensaje</label>
-                  <textarea style="margin-top: 15px;" name="msg" placeholder="Escribe tu mensaje..." required="required"></textarea> <br>
+                  <textarea style="margin-top: 15px;" name="service" placeholder="Escribe tu mensaje..." required="required"></textarea> <br>
 
                   <center><button name="action" value="new_contact">Enviar</button></center>
                 </form>           
