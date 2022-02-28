@@ -700,7 +700,7 @@ body.swal2-height-auto {
 
     .head .container-header{
         display: grid;
-        grid-template-columns: 15% 85%;
+        grid-template-columns: 25% 75%;
     }
     .head .container-header img{
         /*width: 100%;*/
@@ -756,8 +756,8 @@ body.swal2-height-auto {
 
     .head .container-header ul>li>ol>li{
         padding: 5% 8%;
-        border-left: 2px solid #013855;
-        border-bottom: 1px solid #33333326;
+        border-left: 2px solid #013855; 
+        border-top: 1px solid #33333326;
         background: #fff;
         transition: 0.3s;
         color: #111;

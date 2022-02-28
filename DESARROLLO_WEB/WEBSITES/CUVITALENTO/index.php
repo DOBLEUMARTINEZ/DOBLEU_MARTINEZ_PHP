@@ -58,7 +58,7 @@
                     CUVI TALENTO
                   </h2>
                   <p>
-                    Somos una empresa de nuevo talento que surge gracias a la detección de oportunidades existentes en el mercado de administración de personal. Nuestro objetivo es  brindar al mercado una nueva alternativa con procesos más eficaces, precios competitivos y el uso de herramientas que permitan proporcionar un servicio de calidad a nuestros cliente.<br>
+                    Somos una empresa de nuevo talento que surge gracias a la detección de oportunidades existentes en el mercado de administración de personal. Nuestro objetivo es  brindar al mercado una nueva alternativa con procesos más eficaces, precios competitivos y el uso de herramientas que permitan proporcionar un servicio de calidad a nuestros clientes.<br>
                     <button data-toggle="modal" data-target="#modal-1" class="cta-02">Contáctanos</button>
                   </p>
     
@@ -95,7 +95,7 @@
                 <div class="col-md-6" style="margin: auto;">
                     <h2>Nuestro compromiso</h2>
                     <p>
-                        Proporcionar los resultados de forma clara eficaz y objetiva validando la información proporcionada por los candidatos en cualquiera de nuestros servicios.
+                        Proporcionar los resultados de forma clara, eficaz y objetiva; validando la información proporcionada por los candidatos en cualquiera de nuestros servicios.
                         <br>
                         <button class="cta-02" data-toggle="modal" data-target="#modal-1">Contáctanos</button>
                     </p>
@@ -356,7 +356,7 @@
               <div class="container-work">
 
                 <h2 style="margin-bottom: 1%;">
-                  Pruebas psicimétricas 
+                  Pruebas psicométricas 
                 </h2>
 
               </div>

@@ -57,7 +57,7 @@
               <div class="container-work">
 
                 <h2 style="margin-bottom: 1%;">
-                  Pruebas psicimétricas 
+                  Pruebas psicométricas 
                 </h2>
 
               </div>
