@@ -5,12 +5,12 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Empresa dedicada en brindar soluciones y servicios de recursos humanos, consultoría administrativa, contable y de marketing">
+  <meta name="description" content="Empresa dedicada en brindar soluciones y servicios de estudios socioeconomicos">
   <meta name="author" content="Dobleu Martinez">
   <meta name="theme-color" content="#111">
 
     
-  <title>CUVITALENTO | Desarrollo Laboral y Profesional </title>
+  <title>CUVITALENTO | Estudios socioeconomicos </title>
 
   <link href="images/logo/icon.png" rel="shortcut icon"/>
 
@@ -39,141 +39,14 @@
 
   <?php include("php/head.php");?>
 
-  <?php include("php/slide.php");?>  
+  <?php include("php/slide-nosotros.php");?>  
 
 
   <section py="5" class="body-back">
 
     <article>
 
-      <!-- principal -->
-      <div  class="container">
-          
-        <div class="container-us">
-            
-            <div class="row no-gutters">
-            
-                <div class="col-md-6" style="margin: auto;">
-                  <h2>
-                    CUVI TALENTO
-                  </h2>
-                  <p>
-                    Somos una empresa de nuevo talento que surge gracias a la detección de oportunidades existentes en el mercado de administración de personal. Nuestro objetivo es  brindar al mercado una nueva alternativa con procesos más eficaces, precios competitivos y el uso de herramientas que permitan proporcionar un servicio de calidad a nuestros cliente.<br>
-                    <button data-toggle="modal" data-target="#modal-1" class="cta-02">Contáctanos</button>
-                  </p>
-    
-                </div>
-
-                <div class="col-md-6 desktop">
-                  <img class="w-img-s1 img-fluid desktop" src="./images/img/nosotros-02.jpg" title="ats" alt="ats">
-                </div> 
-    
-                <div class="col-md-6 mobil">
-                  <img class="w-img-s1 img-fluid mobil" src="./images/img/nosotros-02.jpg" title="ats" alt="ats">
-                </div> 
-
-            </div>
-
-        </div>
-        
-        <div class="container-services">
-
-            <h2 style="text-align: center;">Agregando valor y bienestar en tu organización</h2>
-          
-            <br><br>
-          
-            <div class="row no-gutters">
-            
-                <div class="col-md-6 desktop">
-                  <img class="w-img-s1 img-fluid desktop" src="./images/img/img_2.png" title="ats" alt="ats">
-                </div> 
-    
-                <div class="col-md-6 mobil">
-                  <img class="w-img-s1 img-fluid mobil" src="./images/img/img_2.png" title="ats" alt="ats">
-                </div>
-
-                <div class="col-md-6" style="margin: auto;">
-                    <h2>Nuestro compromiso</h2>
-                    <p>
-                        Proporcionar los resultados de forma clara eficaz y objetiva validando la información proporcionada por los candidatos en cualquiera de nuestros servicios.
-                        <br>
-                        <button class="cta-02" data-toggle="modal" data-target="#modal-1">Contáctanos</button>
-                    </p>
-
-                </div> 
-
-            </div>
-
-        </div>
-
-      </div>
-
-      <div class="container-black" style="padding: 4% 5% 4% 5%;">
-        <span style="background: #000f1fcc;"></span>
-
-          <div class="row">
-            <div class="col-md-12" >
-              <h2 id="colors"><center>
-                Nosotros fortalecemos el proceso de reclutamiento y selección de personal, verificando los antecedentes laborales y evaluando sus competencias.</center>
-              </h2>
-            </div>
-        </div>
-
-      </div> 
-
       <!-- SERVICIOS  -->
-      <div class="container">
-        
-        <div class="container-us">
-            
-            <div class="row no-gutters">
-
-              <div class="col-md-12">
-                <div class="container-work">
-
-                  <h2 style="margin-bottom: 1%;">
-                    Reclutamiento
-                  </h2>
-                  <p style="margin-bottom: 3%; text-align: center;">
-                     Recuerda que las empresas son tan buenas como las personas que se contratan y trabajan día a día
-                  </p>
-
-                </div>
-              </div>
-            
-              <div class="col-md-8">
-                <h3>¿Qué es?</h3>
-                <p>
-                  El reclutamiento es el proceso mediante el cual la organización identifica y atrae a futuros empleados capacitados e idóneos para el cumplimiento de los objetivos organizacionales.
-                </p> 
-              </div>
-              <div class="col-md-4">
-                <img class="w-img-s1 img-fluid desktop" src="./images/img/nosotros-02.jpg" title="ats" alt="ats">
-              </div>
-
-              <div class="col-md-12">
-                <h3>
-                  Tipos de perfiles a cubrir
-                </h3>
-                <ol id="type-perfil">
-                  <li>
-                    <img src="images/icons/work-team.png"><p>Operativo</p>
-                  </li>
-                  <li>
-                    <img src="images/icons/programmer.png"><p>Administrativo</p>
-                  </li>
-                  <li>
-                    <img src="images/icons/directive.png"><p>Directivo</p>
-                  </li>
-                </ol>
-              </div>
-
-            </div>
-
-        </div>
-
-      </div>
-
       <div  class="container">
 
         <div class="container-us">
@@ -352,45 +225,6 @@
               </p>
             </div>
 
-            <div class="col-md-12">
-              <div class="container-work">
-
-                <h2 style="margin-bottom: 1%;">
-                  Pruebas psicimétricas 
-                </h2>
-
-              </div>
-            </div>
-
-            <div class="col-md-8">
-                <h3>¿Qué es?</h3>
-                <p>
-                  Son una herramienta que permite a los empleadores realizar una aproximación a los rasgos de los potenciales trabajadores.
-                </p> 
-              </div>
-              <div class="col-md-4">
-                <img class="w-img-s1 img-fluid desktop" src="./images/img/nosotros-02.jpg" title="ats" alt="ats">
-            </div>
-
-            <div class="col-md-12">
-                <h3>
-                  Tipos de pruebas
-                </h3>
-                <ol id="type-perfil">
-                  <li id="pruebas-psico" >
-                    <img src="images/icons/skills.png"><p style="padding-left: 0.5em;">Competencias</p>
-                  </li>
-                  <li id="pruebas-psico" >
-                    <img src="images/icons/honesty.png"><p style="padding-left: 0.5em;">Honestidad</p>
-                  </li>
-                  <li id="pruebas-psico" >
-                    <img src="images/icons/thinking.png"><p style="padding-left: 0.5em;">Inteligencia</p>
-                  </li>
-                  <li id="pruebas-psico" >
-                    <img src="images/icons/personality-disorder.png"><p style="padding-left: 0.5em;">Personalidad</p>
-                  </li>
-                </ol>
-            </div>
 
           </div>
 
@@ -487,7 +321,7 @@
                   <input type="text" name="email" placeholder="ejemplo@gmail.com" required="required">
                   
                   <label>Escribenos tu mensaje</label>
-                  <textarea style="margin-top: 15px;" name="service" placeholder="Escribe tu mensaje..." required="required"></textarea> <br>
+                  <textarea style="margin-top: 15px;" name="msg" placeholder="Escribe tu mensaje..." required="required"></textarea> <br>
 
                   <center><button name="action" value="new_contact">Enviar</button></center>
                 </form>           

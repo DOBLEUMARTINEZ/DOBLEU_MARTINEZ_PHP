@@ -150,8 +150,13 @@
 
             <h2 onclick="window.location.href='./nosotros.php';" class="menu-header"><i class="fas fa-angle-right"></i> Nosotros <i class="fas fa-angle-left"></i></h2>
 
-            <h2 onclick="window.location.href='./servicios.php';" class="menu-header">
+            <h2 class="menu-header">
               <i class="fas fa-angle-right"></i> Servicios <i class="fas fa-angle-left"></i>
+              <ol>
+                <li onclick="window.location.href='./reclutamiento.php';" >Reclutamiento</li>
+                <li onclick="window.location.href='./estudios-socioeconomicos.php';" >Estudios Socioeconómicos</li>
+                <li onclick="window.location.href='./pruebas-psicometricas.php';" >Pruebas Psicométricas</li>
+              </ol>
             </h2>
 
             <h2 onclick="window.location.href='./contacto.php';" class="menu-header"><i class="fas fa-angle-right"></i> Contacto <i class="fas fa-angle-left"></i></h2>
@@ -186,10 +191,13 @@
               <label>Correo Electrónico</label>
               <input type="email" name="email" placeholder="ejemplo@gmail.com" required>
 
-              <label>Organización</label>
-              <input type="text" name="empresa" placeholder="Organización" required>
-
-              <br><br>
+              <label>Servicio</label>
+              <select name="service">
+                <option value="Reclutamiento">Reclutamiento</option>
+                <option value="Estudios Socioeconómicos">Estudios Socioeconómicos</option>
+                <option value="Pruebas Psicométricas">Pruebas Psicométricas</option>
+              </select>
+              
               <button name="action" value="new_contact" >
                 Enviar
               </button>
@@ -416,8 +424,12 @@
               <label>Correo Electrónico</label>
               <input type="email" name="email" placeholder="ejemplo@gmail.com" required>
 
-              <label>Organización</label>
-              <input type="text" name="empresa" placeholder="Organización" required>
+              <label>Servicio</label>
+              <select name="service">
+                <option value="Reclutamiento">Reclutamiento</option>
+                <option value="Estudios Socioeconómicos">Estudios Socioeconómicos</option>
+                <option value="Pruebas Psicométricas">Pruebas Psicométricas</option>
+              </select>
 
               <br><br>
               <button name="action" value="new_contact" >

@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 
-
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Empresa de apoyo digital y RH para la gestión del talento en las organizaciones">
+  <meta name="description" content="Empresa dedicada en brindar soluciones y servicios de reclutamiento especializado.">
   <meta name="author" content="Dobleu Martinez">
   <meta name="theme-color" content="#111">
 
     
-  <title>ATS | Contacto</title>
+  <title>CUVITALENTO | Reclutamiento </title>
 
   <link href="images/logo/icon.png" rel="shortcut icon"/>
+
+  <link rel="manifest" href="https://cuvitalento.com/images/logo/icon.png">
+  <link rel="icon" type="images/logo/icon.png" sizes="32x32" href="https://cuvitalento.com/images/logo/icon.png">
+  <link rel="icon" type="images/logo/icon.png" sizes="16x16" href="https://cuvitalento.com/images/logo/icon.png">
+
 
   <link rel="stylesheet" href="css/styles.css"/>
   <link rel="stylesheet" href="css/main.css"/>
 
   <!-- icons CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -33,15 +39,71 @@
 
   <?php include("php/head.php");?>
 
-  <?php include("php/slide-contacto.php");?>  
+  <?php include("php/slide-nosotros.php");?>  
 
-  <section py="5" >
 
-    <article>
+  <section py="5" class="body-back">
+
+    <article> 
+
+      <!-- SERVICIOS  -->
+      <div class="container">
+        
+        <div class="container-us">
+            
+            <div class="row no-gutters">
+
+              <div class="col-md-12">
+                <div class="container-work">
+
+                  <h2 style="margin-bottom: 1%;">
+                    Reclutamiento
+                  </h2>
+                  <p style="margin-bottom: 3%; text-align: center;">
+                     Recuerda que las empresas son tan buenas como las personas que se contratan y trabajan día a día
+                  </p>
+
+                </div>
+              </div>
+            
+              <div class="col-md-8">
+                <h3>¿Qué es?</h3>
+                <p>
+                  El reclutamiento es el proceso mediante el cual la organización identifica y atrae a futuros empleados capacitados e idóneos para el cumplimiento de los objetivos organizacionales.
+                </p> 
+              </div>
+              <div class="col-md-4">
+                <img class="w-img-s1 img-fluid desktop" src="./images/img/nosotros-02.jpg" title="ats" alt="ats">
+              </div>
+
+              <div class="col-md-12">
+                <h3>
+                  Tipos de perfiles a cubrir
+                </h3>
+                <ol id="type-perfil">
+                  <li>
+                    <img src="images/icons/work-team.png"><p>Operativo</p>
+                  </li>
+                  <li>
+                    <img src="images/icons/programmer.png"><p>Administrativo</p>
+                  </li>
+                  <li>
+                    <img src="images/icons/directive.png"><p>Directivo</p>
+                  </li>
+                </ol>
+              </div>
+
+            </div>
+
+        </div>
+
+      </div>
+
+      <br><br>
 
       <!-- contacto  -->
       <div class="container-contact">
-        <div class="row no-gutters">
+            <div class="row no-gutters">
               <div class="col-md-7" style="background: #111;">
                 <h3>¿Necesitas información de nuestros servicios?</h3>
                 <form method="POST" action="./send.php">
@@ -86,6 +148,7 @@
 
     </article>
   </section>
+
   <?php 
 
     include 'php/modal.php';
@@ -93,6 +156,7 @@
     include 'php/footer.php';
 
   ?>
+  
 </body>
 
 </html>

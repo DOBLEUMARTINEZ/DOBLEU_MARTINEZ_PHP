@@ -38,22 +38,19 @@
     <ul style="justify-content: flex-start;">
     </ul>
     <ul >
-      <li onclick="window.open('');">
+      <li onclick="window.open('https://www.facebook.com/Cuvi-Talento-103037528969349');">
         <i class="fab fa-facebook-f" title="Facebook" alt="Facebook"></i>
       </li>
 
-      <li onclick="window.open('');">
+      <li onclick="window.open('https://www.instagram.com/cuvitalento/?fbclid=IwAR3GTWzHFqdhmLPsxDAjqGGLx7MEoVZYtg4rqfkMLuo9ugFpaG-5iL94rSc');">
         <i class="fab fa-instagram" title="Instagram" alt="Instagram" ></i>
       </li>
 
-      <li onclick="window.open('');">
-        <i class="fab fa-youtube" title="Youtube" alt="Youtube" ></i>
-      </li>
-
-      <li onclick="window.open('');" >
+      <li onclick="window.open('mailto: contacto@cuvitalento.com');" >
         <i class="fas fa-envelope" title="Correo" alt="Correo"></i>
       </li>
 
+      <!-- usuer
       <li data-toggle="modal" data-target="#modal-login">
         
         <?php
@@ -67,7 +64,7 @@
 
       <li data-toggle="modal" data-target="#modal-shoppingcart" style="display:none">
         <i class="fas fa-shopping-cart" title="Shopping cart" alt="Shopping cart"></i>
-      </li>
+      </li>-->
 
     </ul>
   </div>
@@ -77,13 +74,20 @@
     <nav class="container-header">
       <img src="images/logo/logo.png"/ onclick="window.location.href='./';">
       <ul>
-        <li onclick="window.location.href='./';">Inicio<span></span></li>
+        <li onclick="window.location.href='./';">Inicio</li>
 
-        <li onclick="window.location.href='./nosotros.php';" >Nosotros<span></span></li>
+        <li onclick="window.location.href='./nosotros.php';" >Nosotros</li>
 
-        <li onclick="window.location.href='./servicios.php';" >Servicios<span></span></li>
+        <li>
+          Servicios
+          <ol>
+            <li onclick="window.location.href='./reclutamiento.php';" >Reclutamiento</li>
+            <li onclick="window.location.href='./estudios-socioeconomicos.php';" >Estudios Socioeconómicos</li>
+            <li onclick="window.location.href='./pruebas-psicometricas.php';" >Pruebas Psicométricas</li>
+          </ol>
+        </li>
 
-        <li onclick="window.location.href='./contacto.php';">Contacto<span></span></li>
+        <li onclick="window.location.href='./contacto.php';">Contacto</li>
 
         <li style="width: 16%;" class="pulsin gButton">
           <button data-toggle="modal" data-target="#modal-1" >
@@ -92,9 +96,9 @@
               <div class="carousel-item active">
                 Contáctanos             
               </div>
-              <div class="carousel-item">
+              <!--<div class="carousel-item">
                 Demostración
-              </div>
+              </div>--->
              </div>
             </div>
           </button>

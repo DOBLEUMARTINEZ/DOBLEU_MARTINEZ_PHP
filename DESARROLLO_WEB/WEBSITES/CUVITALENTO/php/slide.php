@@ -11,10 +11,13 @@
           <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="3500">
             <div class="carousel-inner">
               <div class="carousel-item">
-                <h1>Agregando valor y bienestar</h1>
+                <h1>Reclutamiento</h1>
               </div>
               <div class="carousel-item active">
-                <h1>Estudios Socioecónomicos</h1>
+                <h1>Estudios<br> Socioecónomicos</h1>
+              </div>
+              <div class="carousel-item ">
+                <h1>Pruebas<br> Psicométricas</h1>
               </div>
             </div>
           </div>
