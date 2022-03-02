@@ -93,6 +93,89 @@
                 </ol>
               </div>
 
+              <div class="container-services" style="margin: 4% 0% 2% 0%;">
+                <br>
+                <h2 style="text-align: center;">Como lo hacemos</h2>
+                <div class="slider-principal" style="padding: 5% 0% 0% 0%;border: 2px solid #33333361;border-style: dotted;border-width: 6px; margin-bottom: 2%">
+                    
+                    <div id="our-service" class="carousel slide" data-ride="carousel">    
+
+                        <div class="carousel-inner">
+
+                          <div class="carousel-item active">
+
+                            <ul>
+
+                              <li data-toggle="modal" data-target="#modal-service -1" >
+                                <span></span>
+                                <img src="images/icons/plataformas.png" title="Visita Domiciliaria" alt="Visita Domiciliaria">
+                                <p>Publicación del perfil en plataformas</p>
+                              </li>
+
+                              <li data-toggle="modal" data-target="#modal-service -2" >
+                                <span></span>
+                                <img src="images/icons/selective.png" title="Fotografías Dentro y Fuera del Domicilio" alt="Fotografías Dentro y Fuera del Domicilio">
+                                <p>Filtración de los mejores perfiles</p>
+                              </li>
+
+                              <li data-toggle="modal" data-target="#modal-service -3" >
+                                <span></span>
+                                <img src="images/icons/job-interview.png" title="Ubicación del Domicilio" alt="Ubicación del Domicilio">
+                                <p>Entrevista Inicial, a profundidad y por competencias</p>
+                              </li>
+
+                              <li data-toggle="modal" data-target="#modal-service -3" >
+                                <span></span>
+                                <img src="images/icons/thinking.png" title="Ubicación del Domicilio" alt="Ubicación del Domicilio">
+                                <p>Aplicación de psicometría (A escoger)</p>
+                              </li>
+
+                            </ul>
+
+                            <ul>
+
+                              <li data-toggle="modal" data-target="#modal-service -4" >
+                                <span></span>
+                                <img src="images/icons/payment.png" title="Datos Personales" alt="Datos Personales">
+                                <p>Estudio socioeconómico (A escoger)</p>
+                              </li>
+
+                              <li data-toggle="modal" data-target="#modal-service -4" >
+                                <span></span>
+                                <img src="images/icons/data-protection.png" title="Datos Personales" alt="Datos Personales">
+                                <p>Investigación laboral (A escoger)</p>
+                              </li>
+
+                              <li data-toggle="modal" data-target="#modal-service -5" >
+                                <span></span>
+                                <img src="images/icons/folders.png" title="Evaluación del Entorno Social" alt="Evaluación del Entorno Social">
+                                <p>Entrega de expedientes completos de dupla o terna de candidatos</p>
+                              </li>
+
+                              <li data-toggle="modal" data-target="#modal-service -6">
+                                <span></span>
+                                <img src="images/icons/warranty.png" title="Referencias Personales y Vecinales">
+                                <p>Garantía de 20 días</p>
+                              </li>
+
+                            </ul>
+
+                          </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+              </div>
+
+              <div class="col-md-12">
+                <p class="box-notes">
+                  <strong>Nota: </strong>EL precio puede ser desde del 50% del salario del perfil a contratar.
+                </p>
+              </div>
+
             </div>
 
         </div>

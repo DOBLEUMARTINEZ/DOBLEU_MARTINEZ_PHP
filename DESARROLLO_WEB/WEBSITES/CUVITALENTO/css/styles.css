@@ -1521,7 +1521,7 @@ a.pulsingButton:hover {
 .container-services p{
     font-size: 1.5em;
     margin: 0% 0%;
-    padding: 0% 4%;
+    padding: 0% 10%;
     /* font-weight: bolder; */
     letter-spacing: 1px;
 }
@@ -1582,7 +1582,7 @@ a.pulsingButton:hover {
 .container-services ul>li>p{
     font-weight: bold;
     line-height: 25px;
-    font-size: 1.3em;
+    font-size: 1.1em!important;
     color: #212529;
 }
 
