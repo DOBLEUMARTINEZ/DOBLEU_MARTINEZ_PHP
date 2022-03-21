@@ -1,18 +1,20 @@
-<?php include('alertas/alertas_01.php');?>
+  <?php include('alertas/alertas_01.php');?>
 
 <!-- HEADER MOBIL -->
-
  <div class="head-mobil mobil">
 
     <ol>
-      <li style="width:20%;" ><img src="images/logo/logo.png" onclick="window.location.href='./';"></li>
-      <li style="width:60%;" class="text-head-mobil" >RECUPERADORA DE RECICLAJES INDUSTRIALES DEL MONTE</li>
-      <li style="width:20%;" ><button data-toggle="modal" data-target="#modal-1" >Contáctanos</button><i data-toggle="modal" data-target="#modal-1" class="fas fa-envelope"></i></li>
+      <li style="width:45%;" ><img src="images/logo/logo.png" onclick="window.location.href='./';"></li>
+      <li style="width:10%;" class="text-head-mobil" ></li>
+      <li style="width:45%;" >
+        <button onclick="window.location.href='mailto:info@sipla.com.mx';" >Contáctanos</button>
+        <i onclick="window.location.href='mailto:info@sipla.com.mx';" class="fas fa-envelope"></i>
+      </li>
     </ol>
 
-  </div>
+  </div> 
 
-<!-- HEADER 1 -->
+<!-- HEADER 1 
   <div  id="inicio" class="head-0 desktop">
     <ul style="justify-content: flex-start;">
       <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';" > <i class="fas fa-envelope" title="Correo" alt="Correo"></i> resicladosindustriales.22@gmail.com</li>
@@ -20,7 +22,7 @@
     <ul>
       <li onclick="window.location.href='tel:5583686664';"> <i class="fas fa-phone" title="Teléfono" alt="Teléfono"></i> 55 8368 6664</li>
     </ul>
-  </div>
+  </div>-->
 
 <!-- HEADER 2 -->
   <div class="head desktop">
@@ -31,13 +33,19 @@
       </div>
 
       <ul>
-        <li onclick="window.location.href='./';">RECUPERADORA DE RECICLAJES INDUSTRIALES DEL MONTE</li>
+        <li onclick="window.location.href='./';">
+          <ol>
+            <li onclick="window.location.href='tel:5515470155';">55 1547 0155</li>
+            <li onclick="window.location.href='mailto:info@sipla.com.mx';">info@sipla.com.mx</li>
+          </ol>
+        </li>
+        <li>
+          <button onclick="window.location.href='mailto:info@sipla.com.mx';">
+            <i class="fa fa-paper-plane"></i>
+          </button>
+        </li>
       </ul>
-
-      <button data-toggle="modal" data-target="#modal-1" >
-        Contáctanos
-      </button>
-
+      
     </nav>
 
   </div>

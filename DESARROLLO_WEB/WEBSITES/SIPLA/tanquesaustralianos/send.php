@@ -8,7 +8,7 @@ if (isset($_POST['action'])||isset($_GET['action'])) {
 
     //echo "new contact";
     
-    $email_to = "resicladosindustriales.22@gmail.com";
+    $email_to = "info@sipla.com.mx";
     //$email_to = "contacto@dobleumartinez.com";
         
       function died($error) {  

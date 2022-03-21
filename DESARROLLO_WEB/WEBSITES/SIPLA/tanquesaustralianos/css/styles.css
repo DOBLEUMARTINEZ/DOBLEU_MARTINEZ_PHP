@@ -1,22 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spartan:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 /*** CONTROLS *****/
 
     :root{
 
-        --font-title: 'Titillium Web', sans-serif;
+        --font-title:'Barlow', sans-serif;
         --color-title: #a90329;
 
-        --font-second: 'Roboto Condensed', sans-serif;
+        --font-second:'Barlow', sans-serif;
 
-        --font-content: 'Roboto Condensed', sans-serif;
+        --font-content:'Barlow', sans-serif;
 
-        --font-three: 'Roboto Condensed', sans-serif;
+        --font-three:'Barlow', sans-serif;
     /** header -color ***/
-        --font-content: 'Roboto Condensed', sans-serif;
+        --font-content:'Barlow', sans-serif;
         --header-color: #fff;
         --enable-color: #111;
 
@@ -29,6 +26,7 @@
     p{
         font-size: 1.3em;
         font-family: var(--font-content);
+        color: #ffffffe0;
     }
     html{
             scroll-behavior: smooth;
@@ -38,12 +36,14 @@
         height: 100%;
         padding: 0;
         margin: 0;
+        background: #1f4b69;
 
     }
 
     .body-back{
-        background-image: url(../images/img/backgroun-texture-01.png);
+        /*background-image: url(../images/img/backgroun-texture-01.png);*/
         background-size: contain;
+        background: #0000;
     }
 
     .desktop-slider{ display: block!important;  visibility: visible; z-index: 99}
@@ -88,6 +88,39 @@
         transition: 0.3s;
         background: #3358b7;
     }
+
+/**/
+.ml12 {
+    width: 70%;
+      padding: 2% 2% 6% 2%;
+      background: #7a9734;
+      font-size: 2.5em;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      position: absolute;
+      font-weight: bold;
+      text-align: center;
+      left: 15%;
+      top: 50%;
+      border-radius: 3px;
+      color: #fff;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.notes-slider{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+}
 
 /* OUR TEAM */
     .our-team-cards{
@@ -190,7 +223,7 @@
             line-height: 1.5;
             letter-spacing: 0px;
             margin: 0% 0% 3% 0%;
-            color: #212529;
+            color: #ffffffe0;
         }
 
         .price-cards >li:hover{
@@ -239,7 +272,7 @@
         }
 
         .price-off {
-            color: #212529a8;
+            color: #ffffffe0a8;
             text-decoration: line-through;
         }
 
@@ -279,7 +312,7 @@
         font-family: var(--font-second);
         letter-spacing: 0px;
         margin-bottom: 0;
-        color: #212529;
+        color: #ffffffe0;
         line-height: 34px
     }
 
@@ -290,7 +323,7 @@
         font-family: var(--font-second);
         letter-spacing: 0px;
         margin-bottom: 0;
-        color: #212529;
+        color: #ffffffe0;
     }
 
 
@@ -444,7 +477,7 @@
         font-family: var(--font-second);
         letter-spacing: 0px;
         margin-bottom: 2%;
-        color: #212529;
+        color: #ffffffe0;
         line-height: 34px;
         border-bottom: 2px solid rgb(0 125 252 / 37%);
     }
@@ -520,7 +553,7 @@
         font-family: var(--font-second);
         letter-spacing: 0px;
         margin-bottom: 0;
-        color: #212529;
+        color: #ffffffe0;
     }
 
     .team-info p {
@@ -637,10 +670,8 @@
     }
 
 /****HEADER ******/
-
-
     .head{
-        padding: 0.5% 5%;
+        padding: 0% 5%;
         margin: 0;
         position: fixed;
         width: 100%;
@@ -768,49 +799,45 @@
     }
 
     .container-header div > img{
-        width: 40%;
+        width: 100%;
     }
 
     .container-header ul {
-        width: 70%;
+        width: 75%;
         display: flex;
         padding: 0;
         margin: 0px 0px 0px 0px;
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .container-header ul > li{
         position: relative;
         list-style: none;
-        margin: auto 2em auto 2em;
+        margin: auto 0em auto 0em;
         font-family: var(--font-content);
-        font-size: 1.8em;
+        font-size: 1.2em;
         cursor: pointer;
         font-weight: 800;
         letter-spacing: 1px;
         color: #000000cf;
         text-align: center;
-        text-transform: uppercase;
     }
 
-    .container-header ul > li:hover{
-        color: #28a745;
-        transition: 0.2s;
+    .container-header ul > li > ol{
+        margin: 0;
+        padding: 0;
+        list-style: none;
     }
 
-    .container-header button{
-        width: 15%;
-       background: #ffc107;
-        border-radius: 5px;
-        border: none;
-        font-size: 1.3em;
-        font-weight: bolder;
-        letter-spacing: 1px;
-        padding: 5px 10px;
-        cursor: pointer;
+    .container-header ul > li > button{
+        border: 2px solid #e9dd2a;
+        background: #e9dd2a;
+        color: #333;
+        padding: 1em;
+        margin-left: 15px;
     }
 
-    
+
     /**/
 
     .dropdown-menu-1{
@@ -1545,7 +1572,7 @@ a.pulsingButton:hover {
     line-height: 1.5;
     letter-spacing: 0px;
     margin-bottom: 0;
-    color: #212529;
+    color: #ffffffe0;
 }
 
 .container-us h3{
@@ -1556,7 +1583,7 @@ a.pulsingButton:hover {
     line-height: 1.5;
     letter-spacing: 0px;
     margin-bottom: 0;
-    color: #212529;
+    color: #ffffffe0;
 }
 .container-us p{
     font-size: 1.3em;
@@ -1570,7 +1597,7 @@ a.pulsingButton:hover {
     font-size: 1em;
     margin: 3% 0% 2% 0%;
     padding: 0.5% 5% 0.5% 5%;
-    color: #212529;
+    color: #ffffffe0;
     font-weight: bolder;
     letter-spacing: 0.7px;
     border: 2px solid #0000;
@@ -1591,7 +1618,7 @@ a.pulsingButton:hover {
     font-size: 1.5em;
     margin: 2% 0% 2% 0%;
     padding: 0.5% 5% 0.5% 5%;
-    color: #212529;
+    color: #ffffffe0;
     font-weight: bolder;
     letter-spacing: 0.7px;
     border: 2px solid #0000;
@@ -1614,7 +1641,7 @@ a.pulsingButton:hover {
     font-size: 1.3em;
     margin: 2% 0% 2% 0%;
     padding: 0.5% 5% 0.5% 5%;
-    color: #212529;
+    color: #ffffffe0;
     font-weight: bolder;
     letter-spacing: 0.7px;
     border: 2px solid #0000;
@@ -1661,17 +1688,15 @@ a.pulsingButton:hover {
     margin-bottom: 20px;
 }
 .container-black{
-    background-image: url(../images/img/work.jpg);
     width: 100%;
     position: relative;
-    padding: 0% 5%;
-    margin: 7% 0% 0% 0%;
-    background-size: cover;
+    padding: 0% 0%;
+    margin: 5% 0% 0% 0%;
 }
 
 .container-black img {
-    width: 70%;
-    margin: -15% 15% 0% 15%;
+    width: 95%;
+    margin: -10% 0% 0% 0%;
 }
 
 .container-black h2{
@@ -1683,6 +1708,32 @@ a.pulsingButton:hover {
     letter-spacing: 0px;
     margin-bottom: 0;
     color: #fffffff7;
+}
+
+.container-black ol{
+    margin: 0% 0%;
+    padding: 5% 0% 5% 15%;
+    list-style: none;
+    background: #ffffffad;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 5px 15px 0px #333333d4; 
+}
+
+.container-black ol > li{
+    font-size: 1.3em;
+    font-family: var(--font-content);
+    color: #2a2a2a;
+    letter-spacing: 1px;
+    position: relative;
+    padding-left: 5%;
+    margin: 5px 0px; 
+}
+
+.container-black ol > li >i{
+    position: absolute;
+    left: 0px;
+    color: #7a9733;
+    top: 5px;
 }
 
 .container-black p{
@@ -1766,7 +1817,7 @@ a.pulsingButton:hover {
     line-height: 1.5;
     letter-spacing: 0px;
     margin-bottom: 2%;
-    color: #212529;
+    color: #ffffffe0;
 }
 
 .container-services p{
@@ -1834,7 +1885,7 @@ a.pulsingButton:hover {
     font-weight: bold;
     line-height: 25px;
     font-size: 1.3em;
-    color: #212529;
+    color: #ffffffe0;
 }
 
 
@@ -1855,15 +1906,20 @@ a.pulsingButton:hover {
 }
 
 /* CONTAINER SERVICES 01 */
+    .container-services-01 {
+        padding: 0% 10%;
+        margin: 5% 0% 0% 0%;
+    }
+
     .container-services-01 h2{
         font-size: 2.2em;
-        text-align: center;
-        padding: 0% 4%;
+        text-align: left;
+        padding: 0% 0%;
         font-family: var(--font-second);
         line-height: 1.5;
         letter-spacing: 0px;
-        margin: 5% 0%;
-        color: #212529;
+        margin: 0% 0% 0% 0%;
+        color: #ffffffe0;
         font-weight: 800;
     }
 
@@ -1875,16 +1931,10 @@ a.pulsingButton:hover {
         line-height: 1.5;
         letter-spacing: 0.5px;
         margin: 0.5em 0;
-        color: #212529;
+        color: #ffffffe0;
+        text-align: center;
     }
 
-    .container-services-01 h3::before{
-        content: '| ';
-        color: #7ac143;
-        font-weight: 900;
-        font-size: 1.3em;
-
-    }
 
     .container-services-01 ul{
         list-style: none;
@@ -1906,7 +1956,53 @@ a.pulsingButton:hover {
 
     .container-services-01 ul>li>img{
         width: 100%;
+        box-shadow: 0px 5px 15px 0px #333333d4;
+        border-radius: 3px;
     }
+
+    .container-services-01 img{
+        width: 70%;
+    }
+
+
+    .container-services-01 form{
+        background: #ffffffad;
+        padding:4%;
+        border-radius: 3px;
+        box-shadow: 0px 5px 15px 0px #333333d4;
+    }
+
+    .container-services-01 form > input{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px!important;
+        border-radius: 3px;
+        border: 2.5px solid #7a9734;
+        font-size: 1em;
+        background: #ffffffad;
+    }
+
+    .container-services-01 form > textarea{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px!important;
+        border-radius: 3px;
+        border: 2.5px solid #7a9734;
+        font-size: 1em;
+        background: #ffffffad;
+    }
+
+    .container-services-01 form button{
+        width: 100%;
+        padding: 10px;  
+        border-radius: 3px;
+        border: 2.5px solid #e9dd2a;
+        background: #e9dd2a;
+        font-size: 1.5em;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
 
 /**/
 .container-work{
@@ -1921,7 +2017,7 @@ a.pulsingButton:hover {
     line-height: 1.5;
     letter-spacing: 0px;
     margin: 5% 0%;
-    color: #212529;
+    color: #ffffffe0;
     font-weight: 800;
 }
 
@@ -1972,7 +2068,7 @@ a.pulsingButton:hover {
     line-height: 1.5;
     letter-spacing: 0.5px;
     margin: 0.5em 0;
-    color: #212529;
+    color: #ffffffe0;
 }
 
 .container-socios ul{
@@ -2360,6 +2456,36 @@ a.pulsingButton:hover {
 }
 
 /**/
+.list-logos{
+    width: 100%;
+    margin: 0%;
+    padding: 3% 0% 0% 0%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.list-logos li{
+    width: 20%;
+    margin: 0 2% 2% 0;
+    background: #fff;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.list-logos li:hover{
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
+.list-logos li>img{
+    width: 90%;
+    border-radius: 50px;
+}
+
+/**/
 
 .menu-header{
     position: relative;
@@ -2589,11 +2715,30 @@ a.pulsingButton:hover {
 
 @media( max-width: 768px ){
 
+    .container-black {
+        padding: 0% 5%;
+    }
 
+    .container-black ol {
+        padding: 5% 0% 5% 5%;
+    }
+
+    .container-services-01 img{
+        width: 100%;
+    }
 
 }
 
 @media (max-width: 425px){
+
+    .list-logos {
+        padding: 0% 0% 4% 0%;
+    }
+
+    .list-logos li {
+        width: 45%;
+        margin: 0 2% 4% 0;
+    }
 
     .mobil-2{
         display: block;
@@ -2677,8 +2822,8 @@ a.pulsingButton:hover {
     }
 
     .container-black img {
-        width: 70%;
-        margin: 5% 15% 0% 15%;
+        width: 80%;
+        margin: 5% 10% 0% 10%;
     }
 
     .price-cards>li {
@@ -2756,10 +2901,23 @@ a.pulsingButton:hover {
     }
 
     .carousel-inner h1 {
-        left: 5%;
-        top: 10%;
-        width: 90%;
-        padding: 10% 5%;
+       left: 0%;
+        top: 15%;
+        width: 100%;
+        padding: 10% 1% 30% 1%;
+        letter-spacing: 2px;
+    }
+
+    .notes-slider {
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 34%;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.3em;
+        color: #fff;
+        letter-spacing: 0.5px
     }
 
     .carousel-inner h2{
@@ -2777,3 +2935,8 @@ a.pulsingButton:hover {
 
 }
 
+@media( max-width: 375px){
+    .carousel-inner h1 {
+        padding: 10% 20% 30% 20%;
+    }
+}

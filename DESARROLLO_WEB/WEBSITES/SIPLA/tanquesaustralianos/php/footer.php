@@ -1,35 +1,24 @@
 <div class="footer-W">
 
-	<div class="row">
-		
-		<div class="col-md-4">
-			<h3>Manejo de residuos</h3>
-			<ol>
-				<li>Tecnología y activos</li>
-				<li>Desmantelamiento especializdo</li>
-				<li>Plástico</li>
-				<li>Tarimas</li>
-				<li>Polipropileno</li>
-				<li>Polietileno</li>
-				<li>Cartón</li>
-				<li>Chatarra</li>
-			</ol>
-		</div>
-		<div class="col-md-4">
-			<h3>Contacto</h3>
-			<ol>
-				<li>MONTE ALBÁN NO. 27 LOMAS DE MONTE MARÍA ATIZAPÁN DE ZARAGOZA ESTADO DE MÉXICO C.P. 52918</li>
-				<li onclick="window.location.href='mailto: resicladosindustriales.22@gmail.com';" > resicladosindustriales.22@gmail.com</li>
-				<li onclick="window.location.href='tel:5583686664';" >55 8368 6664</li>
-				<li onclick="window.location.href='tel:5561437730';" >55 6143 7730</li>
-			</ol>
-		</div>
-		<div class="col-md-4">
-			<center><img  src="images/logo/logo.png" onclick="window.location.href='./';"></center>
-		</div>
+	<div class="row" style="justify-content: center;">
 
-		
-	</div>
+    <div class="col-md-4">
+      <p onclick="window.open('https://www.facebook.com/sipla');" ><i class="fab fa-facebook-f"></i>  <span>Facebook/sipla</span></p>
+      <p onclick="window.open('https://twitter.com/Siplamx');" ><i class="fab fa-twitter"></i>  <span>Twitter/Siplamx</span></p>
+      <p onclick="window.open('https://www.youtube.com/embed/Ny0TQc279aQ');" ><i class="fab fa-youtube"></i> <span> Youtube/sipla</span></p>
+    </div>
+        
+    <div class="col-md-4">
+      <p onclick="window.location.href='tel:5515470155';" ><i class="fas fa-phone"></i>  <span>55 1547 0155</span></p>
+      <p onclick="window.location.href='mailto:info@sipla.mx';" ><i class="far fa-envelope"></i>  <span>info@sipla.com.mx</span></p>
+      <p style="text-align: justify;" onclick="window.open('https://goo.gl/maps/9YD2JU4i4rdTJJjB6');" ><i class="fas fa-map-marker-alt"></i> <span>Belisario Domínguez #122 Col.San Gregorio Atlapulco Alcaldía Xochimilco Ciudad de México, C.P. 16600.</span></p>
+    </div>
+
+    <div class="col-md-4">
+      <img src="images/logo/logo.png" title="Sistemas integrales para la agricultura" alt="Sistemas integrales para la agricultura">
+    </div>
+
+  </div>
 
     <p class="copyrigt">
     	Copyright © 2021 <span onclick="window.open('http://dobleumartinez.com/')">dobleumartinez.com</span>, 
@@ -40,7 +29,7 @@
 
 </div>
 
-<!-- JS -->
+<!-- JS -->	
 
 	<script src="js/interactive.js"></script>
 	
