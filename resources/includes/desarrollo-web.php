@@ -75,6 +75,7 @@
 	            		</li>
 	            	</ol>
 	            </li>
+	            <!--
 	            <li>
 	            	<ol>
 	            		<li>
@@ -122,7 +123,7 @@
 	            			<p>cliente</p>
 	            		</li>
 	            	</ol>
-	            </li>
+	            </li>-->
 	        </ul>
 	    </div>
 	</div>
