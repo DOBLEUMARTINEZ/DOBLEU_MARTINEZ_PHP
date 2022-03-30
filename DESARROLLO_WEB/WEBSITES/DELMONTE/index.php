@@ -48,7 +48,7 @@
           <li>
             <img src="images/img/techno.jpg">
             <h3>Tecnología y activos</h3>
-            <p>Recolección de tecnología y activos que estén por retirar de sus sedes de trabajo.</p>
+            <p>Recolección de tecnología, mobiliario de oficina y activos que estén por retirar de sus sedes de trabajo.</p>
           </li>
           
           <li>
@@ -68,18 +68,18 @@
           <li>
             <img src="images/img/plastico.jpg">
             <h3>Plástico</h3>
-            <p></p>
+            <p>Pet y Playo</p>
           </li>
           
           <li>
-            <img src="images/img/polipro.jpg">
-            <h3>Polipropileno</h3>
-            <p></p>
+            <img src="images/img/metales.jpg">
+            <h3>Metales</h3>
+            <p>Cobre, bronce, aluminio y más</p>
           </li>
 
           <li>
-            <img src="images/img/Polietileno.jpg">
-            <h3>Polietileno</h3>
+            <img src="images/img/unicel.jpg">
+            <h3>Unicel</h3>
             <p></p>
           </li>
 
@@ -91,6 +91,12 @@
 
         </ul>
 
+        <h2>Compramos tu equipo de transporte y trabajo:<br>
+          <span style="font-weight: normal;font-size: 0.7em;">
+            Montacargas, unidades móviles y maquinaria para destrucción
+          </span>
+        </h2>
+
       </div>
 
       <!-- cta  -->
@@ -101,7 +107,13 @@
 
             <div class="col-md-12" >
               <h2 id="colors" style="font-weight: bold; letter-spacing: 1px;">
-                <center>Contamos con equipo roll off<br>Recolecciones en sitio</center>
+                <center>
+                  Contamos con equipo roll off, patines y contenedores móviles.
+                  <br>
+                  <a style="font-weight: normal;font-size: 0.7em;" >
+                    "Equipos de trabajo a su disposición"
+                  </a>
+                </center>
               </h2>
               <center>
                 <button data-toggle="modal" data-target="#modal-1" class="cta-03">
@@ -122,12 +134,7 @@
         <ul>
           <li>
             <img src="images/img/desmantelamiento.jpg">
-            <h3>Naves industriales</h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="images/img/desmantelamiento.jpg">
-            <h3>Maquinaria</h3>
+            <h3>Naves industriales y maquinaria</h3>
             <p></p>
           </li>
         </ul>

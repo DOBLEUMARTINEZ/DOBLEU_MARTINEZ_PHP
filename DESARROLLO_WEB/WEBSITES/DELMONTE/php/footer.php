@@ -9,10 +9,11 @@
 				<li>Desmantelamiento especializdo</li>
 				<li>Plástico</li>
 				<li>Tarimas</li>
-				<li>Polipropileno</li>
-				<li>Polietileno</li>
+				<li>Metales</li>
+				<li>Unicel</li>
 				<li>Cartón</li>
 				<li>Chatarra</li>
+				<li>Equipo roll off, patines y contenedores móviles.</li>
 			</ol>
 		</div>
 		<div class="col-md-4">
