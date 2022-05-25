@@ -4,25 +4,29 @@
 			<h3>DOBLEU MARTINEZ</h3>
 			<ol>
 				<li>Desarrollo web</li>
-				<li>Tattoo studio</li>
+				<li>Marketing digital</li>
+				<li>Campañas de Google ADS</li>
+				<li>Tattoo</li>
 				<li>Joyeria</li>
-			</ol>
-		</li>
-		<li>
-			<h3>Redes Sociales</h3>
-			<ol>
-				<li>Behance</li>
-				<li>Instagram</li>
-				<li>Facebook</li>
 			</ol>
 		</li>
 		<li>
 			<H3>Contacto</H3>
 			<ol>
-				<li>contacto@dobleumartinez.com</li>
-				<li>55 2957 5902</li>
+				<li onclick="window.location.href='mailto:contacto@dobleumartinez.com';" >contacto@dobleumartinez.com</li>
+				<li onclick="window.location.href='tel:+525529575302';">55 2957 5302</li>
+				<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';">WhatsApp</li>
 			</ol>
 		</li>
+		<li>
+			<h3>Redes Sociales</h3>
+			<ol>
+				<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Behance</li>
+				<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Instagram</li>
+				<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Facebook</li>
+			</ol>
+		</li>
+		
 	</ul>
 	<p>Copyright © 2021 <span>dobleumartinez.com</span>, Todos los derechos reservados.</p>
 </footer>
